@@ -1,0 +1,15 @@
+
+Nome Tabella: auto_usate
+
+ID                      INT                 PRIMARY_KEY AUTO_INCREMENT
+prezzo                  DECIMAL(10, 2)      NOT_NULL
+marca                   VARCHAR(60)         NOT_NULL
+modello                 VARCHAR(60)         NOT_NULL
+colore_auto             VARCHAR(30)         NULL
+anno_produzione         INT                 NOT_NULL
+chilometraggio          INT                 NOT_NULL
+tipo_carburante         VARCHAR(20)         NULL
+cilindrata              INT                 NULL
+numeri_propietari       INT                 NOT_NULL
+venduto                 BOOLEAN             DEFAULT FALSE
+descrizione             TEXT                NULL
